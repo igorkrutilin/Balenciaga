@@ -49,6 +49,18 @@ a:hover {
     border-right: 1px solid black;
 }
 
-.head-title, .head2, .head3 {
+.head-title, .head2, .head-menu {
     border-bottom: 1px solid black;
+}
+
+.menu {
+    color: transparent;
+    width: 0%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu span {
+    display: flex;
 }
