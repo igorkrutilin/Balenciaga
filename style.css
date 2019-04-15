@@ -71,3 +71,7 @@ a:hover {
     display: -ms-flexbox;
     display: flex;
 }
+
+.menu-item {
+    border-bottom: 1px solid black;
+}
