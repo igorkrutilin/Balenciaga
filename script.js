@@ -1,8 +1,15 @@
+function change_icon(icon) {
+    var head_menu = document.getElementsByClassName("head-menu")[0];
+    head_menu.innerHTML = icon;
+}
+
 function open_menu() {
     menu.style.width = "100%";
     menu.style.color = "inherit";
     body_man.style.width = "0%";
     body_man.style.color = "transparent";
+
+    change_icon("&#10005;");
 }
 
 function close_menu() {
@@ -10,6 +17,8 @@ function close_menu() {
     menu.style.color = "transparent";
     body_man.style.width = "100%";
     body_man.style.color = "inherit";
+
+    change_icon("&#9776;");
 }
 
 function change_menu_state() {
